@@ -1,0 +1,59 @@
+hr {
+    color: #f00;
+    background-color: #f00;
+    height: 5px;
+  }
+ion-content {
+    --background: var(--ion-color-dark);
+}
+.accordion-list {
+    margin-bottom: 5px;
+    --ion-item-background: #FFFF00;
+
+    .section, .section-active {
+        --min-height: 28px;
+    }
+}
+
+.section {
+    --ion-item-background: #FFFF00;
+    --ion-item-color: #000;
+
+}
+
+.section-active {
+    --ion-item-background: #FFFF00;
+    --iont-item-color: #FFFF00;
+    font-weight: 800;
+
+    ion-icon {
+        color: #FFFF00;
+    }
+}
+
+.child-list {
+    padding:0px;
+    margin: 0px;
+    .child, .child-active {
+        margin-bottom: 8px;
+
+    }
+}
+.child {
+    --ion-item-background:#FFFF00;
+    --ion-item-color: #000;
+
+}
+.child-active {
+    --ion-item-background: #FFFF00;
+    --ion-item-color: #FFFF00;
+
+    ion-icon {
+        color: #FFFF00;
+    }
+}
+.product-list {
+    padding: 1px;
+    margin: 1px;
+
+}
